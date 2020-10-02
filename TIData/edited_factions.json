@@ -1,0 +1,2479 @@
+{
+    "The Federation of Sol": {
+        "tile": {
+            "number": 1,
+            "race": "The Federation of Sol",
+            "wormhole": "NO_WORMHOLE",
+            "anomaly": "NO_ANOMALY",
+            "planets": [
+                {
+                    "name": "Jord",
+                    "resources": 4,
+                    "influence": 2,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                }
+            ]
+        },
+        "maxCommodities": 0,
+        "initialUnits": {
+            "carrier": 0,
+            "cruiser": 0,
+            "destroyer": 0,
+            "dreadnought": 0,
+            "flagship": 0,
+            "warsun": 0,
+            "infantry": 0,
+            "fighters": 0,
+            "pds": 0,
+            "spacedock": 0
+        },
+        "initialTechs": {
+            "red": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "blue": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "yellow": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "green": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "unit": {
+                "carrier": 0,
+                "cruiser": 0,
+                "destroyer": 0,
+                "dreadnought": 0,
+                "flagship": 0,
+                "warsun": 0,
+                "infantry": 0,
+                "fighters": 0,
+                "pds": 0,
+                "spacedock": 0
+            }
+        },
+        "uniqueUnits": {
+            "unitA": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "unitB": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "flagship": {
+                "limit": 1,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": 0
+            }
+        },
+        "uniqueTechs": {}
+    },
+    "The Mentak Coalition": {
+        "tile": {
+            "number": 2,
+            "race": "The Mentak Coalition",
+            "wormhole": "NO_WORMHOLE",
+            "anomaly": "NO_ANOMALY",
+            "planets": [
+                {
+                    "name": "Moll Primus",
+                    "resources": 4,
+                    "influence": 1,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                }
+            ]
+        },
+        "maxCommodities": 0,
+        "initialUnits": {
+            "carrier": 0,
+            "cruiser": 0,
+            "destroyer": 0,
+            "dreadnought": 0,
+            "flagship": 0,
+            "warsun": 0,
+            "infantry": 0,
+            "fighters": 0,
+            "pds": 0,
+            "spacedock": 0
+        },
+        "initialTechs": {
+            "red": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "blue": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "yellow": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "green": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "unit": {
+                "carrier": 0,
+                "cruiser": 0,
+                "destroyer": 0,
+                "dreadnought": 0,
+                "flagship": 0,
+                "warsun": 0,
+                "infantry": 0,
+                "fighters": 0,
+                "pds": 0,
+                "spacedock": 0
+            }
+        },
+        "uniqueUnits": {
+            "unitA": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "unitB": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "flagship": {
+                "limit": 1,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": 0
+            }
+        },
+        "uniqueTechs": {}
+    },
+    "The Brotherhood of Yin": {
+        "tile": {
+            "number": 3,
+            "race": "The Brotherhood of Yin",
+            "wormhole": "NO_WORMHOLE",
+            "anomaly": "NO_ANOMALY",
+            "planets": [
+                {
+                    "name": "Darien",
+                    "resources": 4,
+                    "influence": 4,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                }
+            ]
+        },
+        "maxCommodities": 0,
+        "initialUnits": {
+            "carrier": 0,
+            "cruiser": 0,
+            "destroyer": 0,
+            "dreadnought": 0,
+            "flagship": 0,
+            "warsun": 0,
+            "infantry": 0,
+            "fighters": 0,
+            "pds": 0,
+            "spacedock": 0
+        },
+        "initialTechs": {
+            "red": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "blue": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "yellow": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "green": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "unit": {
+                "carrier": 0,
+                "cruiser": 0,
+                "destroyer": 0,
+                "dreadnought": 0,
+                "flagship": 0,
+                "warsun": 0,
+                "infantry": 0,
+                "fighters": 0,
+                "pds": 0,
+                "spacedock": 0
+            }
+        },
+        "uniqueUnits": {
+            "unitA": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "unitB": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "flagship": {
+                "limit": 1,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": 0
+            }
+        },
+        "uniqueTechs": {}
+    },
+    "The Embers of Muaat": {
+        "tile": {
+            "number": 4,
+            "race": "The Embers of Muaat",
+            "wormhole": "NO_WORMHOLE",
+            "anomaly": "NO_ANOMALY",
+            "planets": [
+                {
+                    "name": "Muaat",
+                    "resources": 4,
+                    "influence": 1,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                }
+            ]
+        },
+        "maxCommodities": 0,
+        "initialUnits": {
+            "carrier": 0,
+            "cruiser": 0,
+            "destroyer": 0,
+            "dreadnought": 0,
+            "flagship": 0,
+            "warsun": 0,
+            "infantry": 0,
+            "fighters": 0,
+            "pds": 0,
+            "spacedock": 0
+        },
+        "initialTechs": {
+            "red": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "blue": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "yellow": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "green": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "unit": {
+                "carrier": 0,
+                "cruiser": 0,
+                "destroyer": 0,
+                "dreadnought": 0,
+                "flagship": 0,
+                "warsun": 0,
+                "infantry": 0,
+                "fighters": 0,
+                "pds": 0,
+                "spacedock": 0
+            }
+        },
+        "uniqueUnits": {
+            "unitA": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "unitB": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "flagship": {
+                "limit": 1,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": 0
+            }
+        },
+        "uniqueTechs": {}
+    },
+    "The Arborec": {
+        "tile": {
+            "number": 5,
+            "race": "The Arborec",
+            "wormhole": "NO_WORMHOLE",
+            "anomaly": "NO_ANOMALY",
+            "planets": [
+                {
+                    "name": "Nestphar",
+                    "resources": 3,
+                    "influence": 2,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                }
+            ]
+        },
+        "maxCommodities": 0,
+        "initialUnits": {
+            "carrier": 0,
+            "cruiser": 0,
+            "destroyer": 0,
+            "dreadnought": 0,
+            "flagship": 0,
+            "warsun": 0,
+            "infantry": 0,
+            "fighters": 0,
+            "pds": 0,
+            "spacedock": 0
+        },
+        "initialTechs": {
+            "red": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "blue": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "yellow": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "green": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "unit": {
+                "carrier": 0,
+                "cruiser": 0,
+                "destroyer": 0,
+                "dreadnought": 0,
+                "flagship": 0,
+                "warsun": 0,
+                "infantry": 0,
+                "fighters": 0,
+                "pds": 0,
+                "spacedock": 0
+            }
+        },
+        "uniqueUnits": {
+            "unitA": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "unitB": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "flagship": {
+                "limit": 1,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": 0
+            }
+        },
+        "uniqueTechs": {}
+    },
+    "The L1Z1X Mindnet": {
+        "tile": {
+            "number": 6,
+            "race": "The L1Z1X Mindnet",
+            "wormhole": "NO_WORMHOLE",
+            "anomaly": "NO_ANOMALY",
+            "planets": [
+                {
+                    "name": "0.0.0",
+                    "resources": 5,
+                    "influence": 0,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                }
+            ]
+        },
+        "maxCommodities": 0,
+        "initialUnits": {
+            "carrier": 0,
+            "cruiser": 0,
+            "destroyer": 0,
+            "dreadnought": 0,
+            "flagship": 0,
+            "warsun": 0,
+            "infantry": 0,
+            "fighters": 0,
+            "pds": 0,
+            "spacedock": 0
+        },
+        "initialTechs": {
+            "red": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "blue": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "yellow": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "green": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "unit": {
+                "carrier": 0,
+                "cruiser": 0,
+                "destroyer": 0,
+                "dreadnought": 0,
+                "flagship": 0,
+                "warsun": 0,
+                "infantry": 0,
+                "fighters": 0,
+                "pds": 0,
+                "spacedock": 0
+            }
+        },
+        "uniqueUnits": {
+            "unitA": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "unitB": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "flagship": {
+                "limit": 1,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": 0
+            }
+        },
+        "uniqueTechs": {}
+    },
+    "The Winnu": {
+        "tile": {
+            "number": 7,
+            "race": "The Winnu",
+            "wormhole": "NO_WORMHOLE",
+            "anomaly": "NO_ANOMALY",
+            "planets": [
+                {
+                    "name": "Winnu",
+                    "resources": 3,
+                    "influence": 4,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                }
+            ]
+        },
+        "maxCommodities": 0,
+        "initialUnits": {
+            "carrier": 0,
+            "cruiser": 0,
+            "destroyer": 0,
+            "dreadnought": 0,
+            "flagship": 0,
+            "warsun": 0,
+            "infantry": 0,
+            "fighters": 0,
+            "pds": 0,
+            "spacedock": 0
+        },
+        "initialTechs": {
+            "red": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "blue": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "yellow": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "green": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "unit": {
+                "carrier": 0,
+                "cruiser": 0,
+                "destroyer": 0,
+                "dreadnought": 0,
+                "flagship": 0,
+                "warsun": 0,
+                "infantry": 0,
+                "fighters": 0,
+                "pds": 0,
+                "spacedock": 0
+            }
+        },
+        "uniqueUnits": {
+            "unitA": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "unitB": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "flagship": {
+                "limit": 1,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": 0
+            }
+        },
+        "uniqueTechs": {}
+    },
+    "The Nekro Virus": {
+        "tile": {
+            "number": 8,
+            "race": "The Nekro Virus",
+            "wormhole": "NO_WORMHOLE",
+            "anomaly": "NO_ANOMALY",
+            "planets": [
+                {
+                    "name": "Mordai II",
+                    "resources": 4,
+                    "influence": 0,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                }
+            ]
+        },
+        "maxCommodities": 0,
+        "initialUnits": {
+            "carrier": 0,
+            "cruiser": 0,
+            "destroyer": 0,
+            "dreadnought": 0,
+            "flagship": 0,
+            "warsun": 0,
+            "infantry": 0,
+            "fighters": 0,
+            "pds": 0,
+            "spacedock": 0
+        },
+        "initialTechs": {
+            "red": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "blue": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "yellow": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "green": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "unit": {
+                "carrier": 0,
+                "cruiser": 0,
+                "destroyer": 0,
+                "dreadnought": 0,
+                "flagship": 0,
+                "warsun": 0,
+                "infantry": 0,
+                "fighters": 0,
+                "pds": 0,
+                "spacedock": 0
+            }
+        },
+        "uniqueUnits": {
+            "unitA": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "unitB": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "flagship": {
+                "limit": 1,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": 0
+            }
+        },
+        "uniqueTechs": {}
+    },
+    "The Naalu Collective": {
+        "tile": {
+            "number": 9,
+            "race": "The Naalu Collective",
+            "wormhole": "NO_WORMHOLE",
+            "anomaly": "NO_ANOMALY",
+            "planets": [
+                {
+                    "name": "Maaluuk",
+                    "resources": 0,
+                    "influence": 2,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                },
+                {
+                    "name": "Druaa",
+                    "resources": 3,
+                    "influence": 1,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                }
+            ]
+        },
+        "maxCommodities": 0,
+        "initialUnits": {
+            "carrier": 0,
+            "cruiser": 0,
+            "destroyer": 0,
+            "dreadnought": 0,
+            "flagship": 0,
+            "warsun": 0,
+            "infantry": 0,
+            "fighters": 0,
+            "pds": 0,
+            "spacedock": 0
+        },
+        "initialTechs": {
+            "red": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "blue": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "yellow": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "green": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "unit": {
+                "carrier": 0,
+                "cruiser": 0,
+                "destroyer": 0,
+                "dreadnought": 0,
+                "flagship": 0,
+                "warsun": 0,
+                "infantry": 0,
+                "fighters": 0,
+                "pds": 0,
+                "spacedock": 0
+            }
+        },
+        "uniqueUnits": {
+            "unitA": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "unitB": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "flagship": {
+                "limit": 1,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": 0
+            }
+        },
+        "uniqueTechs": {}
+    },
+    "The Barony of Letnev": {
+        "tile": {
+            "number": 10,
+            "race": "The Barony of Letnev",
+            "wormhole": "NO_WORMHOLE",
+            "anomaly": "NO_ANOMALY",
+            "planets": [
+                {
+                    "name": "Arc Prime",
+                    "resources": 4,
+                    "influence": 0,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                },
+                {
+                    "name": "Wren Terra",
+                    "resources": 2,
+                    "influence": 1,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                }
+            ]
+        },
+        "maxCommodities": 0,
+        "initialUnits": {
+            "carrier": 0,
+            "cruiser": 0,
+            "destroyer": 0,
+            "dreadnought": 0,
+            "flagship": 0,
+            "warsun": 0,
+            "infantry": 0,
+            "fighters": 0,
+            "pds": 0,
+            "spacedock": 0
+        },
+        "initialTechs": {
+            "red": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "blue": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "yellow": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "green": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "unit": {
+                "carrier": 0,
+                "cruiser": 0,
+                "destroyer": 0,
+                "dreadnought": 0,
+                "flagship": 0,
+                "warsun": 0,
+                "infantry": 0,
+                "fighters": 0,
+                "pds": 0,
+                "spacedock": 0
+            }
+        },
+        "uniqueUnits": {
+            "unitA": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "unitB": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "flagship": {
+                "limit": 1,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": 0
+            }
+        },
+        "uniqueTechs": {}
+    },
+    "The Clan of Saar": {
+        "tile": {
+            "number": 11,
+            "race": "The Clan of Saar",
+            "wormhole": "NO_WORMHOLE",
+            "anomaly": "NO_ANOMALY",
+            "planets": [
+                {
+                    "name": "Lisis II",
+                    "resources": 1,
+                    "influence": 0,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                },
+                {
+                    "name": "Ragh",
+                    "resources": 2,
+                    "influence": 1,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                }
+            ]
+        },
+        "maxCommodities": 0,
+        "initialUnits": {
+            "carrier": 0,
+            "cruiser": 0,
+            "destroyer": 0,
+            "dreadnought": 0,
+            "flagship": 0,
+            "warsun": 0,
+            "infantry": 0,
+            "fighters": 0,
+            "pds": 0,
+            "spacedock": 0
+        },
+        "initialTechs": {
+            "red": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "blue": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "yellow": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "green": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "unit": {
+                "carrier": 0,
+                "cruiser": 0,
+                "destroyer": 0,
+                "dreadnought": 0,
+                "flagship": 0,
+                "warsun": 0,
+                "infantry": 0,
+                "fighters": 0,
+                "pds": 0,
+                "spacedock": 0
+            }
+        },
+        "uniqueUnits": {
+            "unitA": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "unitB": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "flagship": {
+                "limit": 1,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": 0
+            }
+        },
+        "uniqueTechs": {}
+    },
+    "The Universities of Jol-Nar": {
+        "tile": {
+            "number": 12,
+            "race": "The Universities of Jol-Nar",
+            "wormhole": "NO_WORMHOLE",
+            "anomaly": "NO_ANOMALY",
+            "planets": [
+                {
+                    "name": "Nar",
+                    "resources": 2,
+                    "influence": 3,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                },
+                {
+                    "name": "Jol",
+                    "resources": 1,
+                    "influence": 2,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                }
+            ]
+        },
+        "maxCommodities": 0,
+        "initialUnits": {
+            "carrier": 0,
+            "cruiser": 0,
+            "destroyer": 0,
+            "dreadnought": 0,
+            "flagship": 0,
+            "warsun": 0,
+            "infantry": 0,
+            "fighters": 0,
+            "pds": 0,
+            "spacedock": 0
+        },
+        "initialTechs": {
+            "red": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "blue": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "yellow": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "green": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "unit": {
+                "carrier": 0,
+                "cruiser": 0,
+                "destroyer": 0,
+                "dreadnought": 0,
+                "flagship": 0,
+                "warsun": 0,
+                "infantry": 0,
+                "fighters": 0,
+                "pds": 0,
+                "spacedock": 0
+            }
+        },
+        "uniqueUnits": {
+            "unitA": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "unitB": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "flagship": {
+                "limit": 1,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": 0
+            }
+        },
+        "uniqueTechs": {}
+    },
+    "Sardakk N'orr": {
+        "tile": {
+            "number": 13,
+            "race": "Sardakk N'orr",
+            "wormhole": "NO_WORMHOLE",
+            "anomaly": "NO_ANOMALY",
+            "planets": [
+                {
+                    "name": "Tren'Lak",
+                    "resources": 1,
+                    "influence": 0,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                },
+                {
+                    "name": "Quinarra",
+                    "resources": 3,
+                    "influence": 1,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                }
+            ]
+        },
+        "maxCommodities": 0,
+        "initialUnits": {
+            "carrier": 0,
+            "cruiser": 0,
+            "destroyer": 0,
+            "dreadnought": 0,
+            "flagship": 0,
+            "warsun": 0,
+            "infantry": 0,
+            "fighters": 0,
+            "pds": 0,
+            "spacedock": 0
+        },
+        "initialTechs": {
+            "red": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "blue": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "yellow": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "green": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "unit": {
+                "carrier": 0,
+                "cruiser": 0,
+                "destroyer": 0,
+                "dreadnought": 0,
+                "flagship": 0,
+                "warsun": 0,
+                "infantry": 0,
+                "fighters": 0,
+                "pds": 0,
+                "spacedock": 0
+            }
+        },
+        "uniqueUnits": {
+            "unitA": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "unitB": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "flagship": {
+                "limit": 1,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": 0
+            }
+        },
+        "uniqueTechs": {}
+    },
+    "The Xxcha Kingdom": {
+        "tile": {
+            "number": 14,
+            "race": "The Xxcha Kingdom",
+            "wormhole": "NO_WORMHOLE",
+            "anomaly": "NO_ANOMALY",
+            "planets": [
+                {
+                    "name": "Archon Ren",
+                    "resources": 2,
+                    "influence": 3,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                },
+                {
+                    "name": "Archon Tau",
+                    "resources": 1,
+                    "influence": 1,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                }
+            ]
+        },
+        "maxCommodities": 0,
+        "initialUnits": {
+            "carrier": 0,
+            "cruiser": 0,
+            "destroyer": 0,
+            "dreadnought": 0,
+            "flagship": 0,
+            "warsun": 0,
+            "infantry": 0,
+            "fighters": 0,
+            "pds": 0,
+            "spacedock": 0
+        },
+        "initialTechs": {
+            "red": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "blue": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "yellow": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "green": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "unit": {
+                "carrier": 0,
+                "cruiser": 0,
+                "destroyer": 0,
+                "dreadnought": 0,
+                "flagship": 0,
+                "warsun": 0,
+                "infantry": 0,
+                "fighters": 0,
+                "pds": 0,
+                "spacedock": 0
+            }
+        },
+        "uniqueUnits": {
+            "unitA": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "unitB": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "flagship": {
+                "limit": 1,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": 0
+            }
+        },
+        "uniqueTechs": {}
+    },
+    "The Yssaril Tribes": {
+        "tile": {
+            "number": 15,
+            "race": "The Yssaril Tribes",
+            "wormhole": "NO_WORMHOLE",
+            "anomaly": "NO_ANOMALY",
+            "planets": [
+                {
+                    "name": "Retillion",
+                    "resources": 2,
+                    "influence": 3,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                },
+                {
+                    "name": "Shalloq",
+                    "resources": 1,
+                    "influence": 2,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                }
+            ]
+        },
+        "maxCommodities": 0,
+        "initialUnits": {
+            "carrier": 0,
+            "cruiser": 0,
+            "destroyer": 0,
+            "dreadnought": 0,
+            "flagship": 0,
+            "warsun": 0,
+            "infantry": 0,
+            "fighters": 0,
+            "pds": 0,
+            "spacedock": 0
+        },
+        "initialTechs": {
+            "red": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "blue": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "yellow": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "green": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "unit": {
+                "carrier": 0,
+                "cruiser": 0,
+                "destroyer": 0,
+                "dreadnought": 0,
+                "flagship": 0,
+                "warsun": 0,
+                "infantry": 0,
+                "fighters": 0,
+                "pds": 0,
+                "spacedock": 0
+            }
+        },
+        "uniqueUnits": {
+            "unitA": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "unitB": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "flagship": {
+                "limit": 1,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": 0
+            }
+        },
+        "uniqueTechs": {}
+    },
+    "The Emirates of Hacan": {
+        "tile": {
+            "number": 16,
+            "race": "The Emirates of Hacan",
+            "wormhole": "NO_WORMHOLE",
+            "anomaly": "NO_ANOMALY",
+            "planets": [
+                {
+                    "name": "Hercant",
+                    "resources": 1,
+                    "influence": 1,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                },
+                {
+                    "name": "Kamdorn",
+                    "resources": 0,
+                    "influence": 1,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                },
+                {
+                    "name": "Arretze",
+                    "resources": 2,
+                    "influence": 0,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                }
+            ]
+        },
+        "maxCommodities": 0,
+        "initialUnits": {
+            "carrier": 0,
+            "cruiser": 0,
+            "destroyer": 0,
+            "dreadnought": 0,
+            "flagship": 0,
+            "warsun": 0,
+            "infantry": 0,
+            "fighters": 0,
+            "pds": 0,
+            "spacedock": 0
+        },
+        "initialTechs": {
+            "red": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "blue": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "yellow": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "green": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "unit": {
+                "carrier": 0,
+                "cruiser": 0,
+                "destroyer": 0,
+                "dreadnought": 0,
+                "flagship": 0,
+                "warsun": 0,
+                "infantry": 0,
+                "fighters": 0,
+                "pds": 0,
+                "spacedock": 0
+            }
+        },
+        "uniqueUnits": {
+            "unitA": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "unitB": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "flagship": {
+                "limit": 1,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": 0
+            }
+        },
+        "uniqueTechs": {}
+    },
+    "The Ghosts of Creuss": {
+        "tile": {
+            "number": 17,
+            "race": "The Ghosts of Creuss",
+            "wormhole": "NO_WORMHOLE",
+            "anomaly": "NO_ANOMALY",
+            "planets": [
+                {
+                    "name": "Creuss",
+                    "resources": 4,
+                    "influence": 2,
+                    "trait": "NO_TRAIT",
+                    "tech": "NO_TECH"
+                }
+            ]
+        },
+        "maxCommodities": 0,
+        "initialUnits": {
+            "carrier": 0,
+            "cruiser": 0,
+            "destroyer": 0,
+            "dreadnought": 0,
+            "flagship": 0,
+            "warsun": 0,
+            "infantry": 0,
+            "fighters": 0,
+            "pds": 0,
+            "spacedock": 0
+        },
+        "initialTechs": {
+            "red": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "blue": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "yellow": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "green": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "unit": {
+                "carrier": 0,
+                "cruiser": 0,
+                "destroyer": 0,
+                "dreadnought": 0,
+                "flagship": 0,
+                "warsun": 0,
+                "infantry": 0,
+                "fighters": 0,
+                "pds": 0,
+                "spacedock": 0
+            }
+        },
+        "uniqueUnits": {
+            "unitA": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "unitB": {
+                "limit": 8,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "flagship": {
+                "limit": 1,
+                "cost": 2,
+                "combat": [
+                    1,
+                    6
+                ],
+                "move": 3,
+                "capacity": 1,
+                "antifighter": [
+                    0,
+                    0
+                ],
+                "bombardment": [
+                    0,
+                    0
+                ],
+                "sustain": 0,
+                "production": 0,
+                "spaceCannon": 0
+            }
+        },
+        "uniqueTechs": {}
+    }
+}

@@ -43,7 +43,7 @@ public class Player{
 	Player(int id, HashMap<String, Object> dict){ 
 		playerID = id;
 		vpCount = 0;
-		faction = fact;
+		faction = fact; // Is fact meant to be a parameter in the Player constructor?
 		tokenManager = new TokenManager();
 		readyPlanets = new HashMap<String, Planet>();
 		exhaustedPlanets = new HashMap<String, Planet>();
@@ -52,6 +52,7 @@ public class Player{
 		unitManager = new UnitManager();
 	}
 	
+	// Seems unnecessary, can't this be accomplished with dereferencing e.g. Player.playerID
 	public int getPlayerID() {
 		return playerID;
 	}

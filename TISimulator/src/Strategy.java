@@ -12,7 +12,7 @@ public class Strategy {
     	boolean secondaryInput;
         switch (strategyCard) {
             case LEADERSHIP:
-                int sum = 0;
+                int totalInfluence = 0;
                 int numTokens = 0;
                 //ASK FOR INPUT, THEN 
             	int[] input = new int[3];
@@ -27,11 +27,11 @@ public class Strategy {
                 		//USE an interrupt here?
                 		//prompt player to exhaust planets
                 		Planet planetInput = null; //replace null with input planet here
-                		sum += planetInput.getInfluence();
+                		totalInfluence += planetInput.getInfluence();
                 		speakerOrder[(i+playerPos)%playerCount].addExhaustedPlanet(planetInput);
                 	}
                 	// I can probably optimize this
-                	numTokens = sum/3;
+                	numTokens = totalInfluence/3;
                 	for (int j=0; j<numTokens; ++j) {
                 		secondaryInput = false; //REPLACE WITH INPUT
                 		if (secondaryInput) {

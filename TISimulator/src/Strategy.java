@@ -6,7 +6,7 @@ public class Strategy {
 		this.strategyCard = strategyCard;
 	}
 	
-    public void useAction(int playerPos, Player[] speakerOrder) {
+    public void useAction(int playerPos, Player[] speakerOrder) {public int gamePhase; 		// Keep track of game phase 
     	int playerCount = speakerOrder.length;
     	Player turnPlayer = speakerOrder[playerPos];
     	boolean secondaryInput;

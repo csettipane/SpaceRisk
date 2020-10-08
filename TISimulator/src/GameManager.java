@@ -3,10 +3,15 @@ import java.util.Vector;
 
 public class GameManager 
 {
-	public int gamePhase; 		// Keep track of game phase 
+	final int playerCap = 6;
 	public Vector<String> playerNames = new Vector<String>();
 	private Player[] thePlayers; // Array of players in game
-	private int numPlayers;     // Number of players in game, not sure if we will need this but seems good
+	private int numPlayers;      // Number of players in game, not sure if we will need this but seems good
+	public int gamePhase; 		 // Keep track of game phase, thinking about adding managers for each possible phase
+	public Player theSpeaker;    // Keep track of which player is the Speaker
+	public Player activePlayer;  // The active player, probably going to be passed to the phase managers
+	public Board gameboard;      // The game board made up of tiles
+	
 	public int[][] victoryTrack;
 	
 	// GameManage object, sets up game, controls play/flow of the game
@@ -15,29 +20,35 @@ public class GameManager
 //		gamePhase = One of strategy, action status, and agenda; Maybe a pregame phase;
 //     maybe roundCount
 		
-		setupGame();
+		setupGame(); // Called to perform setup
 	}
 	
 	// Method to determine number of players and their names from the user
+	// Currently does not handle any exceptions
+	// For now this will work as though a single terminal is being used
 	public void whosPlaying() throws IOException{
-		// For now this will work as though a single terminal is being used
 		// Make sure number of players does not exceed cap for the game
 		BufferedReader inputStream = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Who's playing? Enter player names one at a time. Enter 'done' when finished.");
 				
 		while (true) {
 			String s = inputStream.readLine();
-			if (s.equals("done")) {
-				String output = String.format("The current players are %s \nIs this correct? Y/n", this.playerNames);
-				System.out.println(output);
-				continue;
-			}
-			else if (s.equals("Y")) {
+			
+			if (this.playerNames.size() == this.playerCap) {
+				System.out.println("Maximum number of players reached.");
 				break;
 			}
-			else if (s.equals("n")) {
-				System.out.println("Please add the remaining players:");
-				continue;
+			else if (s.equals("done")) {
+				String output = String.format("The current players are %s \nIs this correct? [Y/n]", this.playerNames);
+				System.out.println(output);
+				String reply = inputStream.readLine();
+				if (reply.equals("Y")) {
+					break;
+				}
+				else if (reply.equals("n")) {
+					System.out.println("Please add the remaining players:");
+					continue;
+				}
 			}
 			else {
 				this.playerNames.add(s); // Add the input line to player names

@@ -2,6 +2,7 @@ import java.util.HashMap;
 import units.UnitManager;
 import units;
 public class Player{
+	public  final String playerName; // The chosen name of the player
 	private final int playerID;
 	private final Faction faction;
 	private int vpCount;
@@ -40,7 +41,7 @@ public class Player{
 	
 	// How about using a json and loading in all the data in the constructor as a dict?
 	//how exactly to load in and format the json though hmmm...
-	Player(int id, HashMap<String, Object> dict){ 
+	Player(String Name, int id, HashMap<String, Object> dict){ 
 		playerID = id;
 		vpCount = 0;
 		faction = fact; // Is fact meant to be a parameter in the Player constructor?

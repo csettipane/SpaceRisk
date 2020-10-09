@@ -6,13 +6,13 @@ public class Strategy {
 		this.strategyCard = strategyCard;
 	}
 	
-    public void useAction(int playerPos, Player[] speakerOrder) {
+    public void useAction(int playerPos, Player[] speakerOrder) {public int gamePhase; 		// Keep track of game phase 
     	int playerCount = speakerOrder.length;
     	Player turnPlayer = speakerOrder[playerPos];
     	boolean secondaryInput;
         switch (strategyCard) {
             case LEADERSHIP:
-                int sum = 0;
+                int totalInfluence = 0;
                 int numTokens = 0;
                 //ASK FOR INPUT, THEN 
             	int[] input = new int[3];
@@ -27,11 +27,11 @@ public class Strategy {
                 		//USE an interrupt here?
                 		//prompt player to exhaust planets
                 		Planet planetInput = null; //replace null with input planet here
-                		sum += planetInput.getInfluence();
+                		totalInfluence += planetInput.getInfluence();
                 		speakerOrder[(i+playerPos)%playerCount].addExhaustedPlanet(planetInput);
                 	}
                 	// I can probably optimize this
-                	numTokens = sum/3;
+                	numTokens = totalInfluence/3;
                 	for (int j=0; j<numTokens; ++j) {
                 		secondaryInput = false; //REPLACE WITH INPUT
                 		if (secondaryInput) {

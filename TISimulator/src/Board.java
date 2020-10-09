@@ -9,10 +9,10 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Map {
+public class Board {
 	private Tile[][] tiles;
 	
-	Map(String mapString){
+	Board(String mapString){
 		tiles = new Tile[7][7]; //this shouldn't be hard-coded, i'm being lazy
 		int ringNumber = 0;
 		int ringLength = 0;

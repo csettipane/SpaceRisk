@@ -9,7 +9,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Map {
+public class Board {
 	private Tile[][] tiles;
 	
 	Map(String mapString){
